@@ -1,3 +1,14 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap");
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 24px;
+}
+
 .box {
 	border: 3px solid salmon;
 	border-radius: 2rem;
@@ -13,8 +24,33 @@
 .box .input {
 	margin-top: 50px;
 	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.box .input #test {
+	margin-top: 10px;
+	width: 64px;
+	height: 32px;
 }
 
 .box .output {
-	margin-top: 100px;
+	margin-top: 20px;
+}
+
+.box .output #result {
+	border: 0.1rem solid sandybrown;
+	border-radius: 2rem;
+}
+
+input[type="number"] {
+	width: 128px;
+	height: 64px;
+	font-size: 24px;
+}
+
+input[type="number"]:focus {
+	background-color: lightblue;
 }
