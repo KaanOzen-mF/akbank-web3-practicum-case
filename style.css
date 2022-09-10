@@ -1,0 +1,20 @@
+.box {
+	border: 3px solid salmon;
+	border-radius: 2rem;
+	background-color: aquamarine;
+	margin: auto;
+	margin-top: 80px;
+	width: 50%;
+	height: 480px;
+	justify-content: center;
+	text-align: center;
+}
+
+.box .input {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.box .output {
+	margin-top: 100px;
+}
